@@ -35,6 +35,12 @@
         <dependency>
             <groupId>com.mycompany-community</groupId>
             <artifactId>boot-community-demo-core</artifactId>
+			<exclusions>
+				<exclusion>
+					<groupId>org.broadleafcommerce</groupId>
+					<artifactId>broadleaf-framework</artifactId>
+				</exclusion>
+			</exclusions>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -43,6 +49,12 @@
         <dependency>
             <groupId>org.broadleafcommerce</groupId>
             <artifactId>broadleaf-framework-web</artifactId>
+			<exclusions>
+				<exclusion>
+					<groupId>org.broadleafcommerce</groupId>
+					<artifactId>broadleaf-framework</artifactId>
+				</exclusion>
+			</exclusions>
         </dependency>
         <dependency>
             <groupId>com.broadleafcommerce</groupId>
@@ -61,6 +73,17 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+		<dependency>
+			<groupId>org.broadleafcommerce</groupId>
+			<artifactId>broadleaf-framework</artifactId>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/src/main/lib/broadleaf-framework-6.2.10-GA.jar</systemPath>
+		</dependency>
+        <dependency>
+            <groupId>org.apache.solr</groupId>
+            <artifactId>solr-solrj</artifactId>
+        </dependency>
+
     </dependencies>
 
 </project>

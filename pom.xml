@@ -32,7 +32,8 @@
     <properties>
         <debug.args>-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=${debug.port}</debug.args>
         <boot.jvm.memory>-Xmx1536M</boot.jvm.memory>
-        <boot.jvm.args>${boot.jvm.memory} ${debug.args}</boot.jvm.args>
+        <seagence.java.agent>-javaagent:C:/Seagence/demo/sg-java-agent.jar="propertyfile=C:/Seagence/demo/sgagent-local.properties"</seagence.java.agent>
+        <boot.jvm.args>${boot.jvm.memory} ${debug.args} ${seagence.java.agent}</boot.jvm.args>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.uri>${project.baseUri}</project.uri>
