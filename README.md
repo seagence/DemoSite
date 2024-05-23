@@ -1,6 +1,6 @@
 # To Test Seagence
 
-Follow the instruction [here] (https://seagence.com/product/quick-tests/) to test Seagence.
+Follow the instruction [here](https://seagence.com/product/quick-tests/) to test Seagence.
 
 # CommunityStarter
 
