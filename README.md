@@ -1,3 +1,7 @@
+# To Test Seagence
+
+Follow the instruction [here] (https://seagence.com/product/quick-tests/) to test Seagence.
+
 # CommunityStarter
 
 This Maven project is a Spring boot implementation of a community [Broadleaf Commerce](https://www.broadleafcommerce.com) application. It has many sensible defaults set up along with examples of how a fully functioning eCommerce site based on Broadleaf might work.
