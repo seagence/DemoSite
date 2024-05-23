@@ -63,6 +63,4 @@
 <script src="//www.google-analytics.com/cx/api.js"></script>
 <th:block th:utext="${experimentInfo}"></th:block>
 
-<blc:google_universal_analytics ordernumber="${order?.orderNumber}" ></blc:google_universal_analytics>
-
 <meta th:if="${#props.get('google.website.translator.contentKey') != null}" name="google-translate-customization" th:attr="content=${#props.get('google.website.translator.contentKey')}"></meta>

@@ -137,35 +137,10 @@ public class SiteSecurityConfig {
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         http
-                .csrf().disable()
-                .headers().frameOptions().disable().and()
-                .sessionManagement()
-                .sessionFixation()
-                .migrateSession()
-                .enableSessionUrlRewriting(false)
-                .and()
-                .formLogin()
-                .permitAll()
-                .successHandler(successHandler)
-                .failureHandler(failureHandler)
-                .loginPage("/login")
-                .loginProcessingUrl("/login_post.htm")
-                .and()
-                .authorizeHttpRequests()
-                .requestMatchers("/account/wishlist/**", "/account/**")
-                .authenticated()
-                .and()
-                .requiresChannel()
-                .requestMatchers("/**")
-                .requiresSecure()
-                .and()
-                .logout()
-                .invalidateHttpSession(true)
-                .deleteCookies("ActiveID")
-                .logoutUrl("/logout")
-                .and()
-                .addFilterBefore(securityFilter, UsernamePasswordAuthenticationFilter.class);
-        return http.build();
+			.authorizeRequests(authorizeRequests -> authorizeRequests.anyRequest()
+			.permitAll())
+			.csrf(org.springframework.security.config.annotation.web.configurers.AbstractHttpConfigurer::disable);
+			return http.build();
     }
 
     /**

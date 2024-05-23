@@ -32,7 +32,8 @@
     <properties>
         <debug.args>-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=${debug.port}</debug.args>
         <boot.jvm.memory>-Xmx1536M</boot.jvm.memory>
-        <seagence.java.agent>-javaagent:C:/Seagence/demo/sg-java-agent.jar="propertyfile=C:/Seagence/demo/sgagent-local.properties"</seagence.java.agent>
+        <seagence.java.agent>-javaagent:C:/Seagence/demo/sg-java-agent.jar="propertyfile=C:/Seagence/demo/sgagent.properties"</seagence.java.agent>
+		<!-- <dd.java.agent>-javaagent:C:/ProgramData/Datadog/dd-java-agent.jar -Dcom.sun.management.jmxremote.port=9012 -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.authenticate=false -Ddd.logs.injection=true -Ddd.service=heat-clinic -Ddd.env=dev -Ddd.profiling.enabled=true -Ddd.profiling.ddprof.enabled=true -Ddd.profiling.ddprof.cpu.enabled=true -Ddd.profiling.ddprof.wall.enabled=true -Ddd.profiling.ddprof.alloc.enabled=true</dd.java.agent> -->
         <boot.jvm.args>${boot.jvm.memory} ${debug.args} ${seagence.java.agent}</boot.jvm.args>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

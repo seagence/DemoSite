@@ -1,0 +1,111 @@
+<site-messages>
+	<message name="addressName.required" value="Please enter a name for your address."/>
+	<message name="addressLine1.required" value="Please enter the actual address."/>
+	<message name="city.required" value="Please enter the city."/>
+	<message name="state.required" value="Please enter the state."/>
+	<message name="stateProvinceRegion.required" value="Please enter the state."/>
+	<message name="postalCode.required" value="Please enter the postal code."/>
+	<message name="postalCode.invalid" value="Please enter a valid postal code."/>
+	<message name="phonePrimary.required" value="Please enter a primary phone number."/>
+	<message name="phonePrimary.invalid" value="Please enter a valid primary phone number"/>
+	<message name="phoneSecondary.required" value="Please enter a secondary phone number."/>
+	<message name="phoneSecondary.invalid" value="Please enter a valid secondary phone number"/>
+	<message name="phoneFax.required" value="Please enter a fax number."/>
+	<message name="fullName.required" value="Please enter your full name."/>
+	<message name="firstName.required" value="Please enter your first name."/>
+	<message name="firstName.invalid" value="Please enter a valid First Name."/>
+	<message name="lastName.required" value="Please enter your last name."/>
+	<message name="lastName.invalid" value="Please enter a valid Last Name."/>
+	<message name="username.required" value="Please enter a username"/>
+	<message name="username.used" value="A user already exists with that username."/>
+	<message name="password.required" value="Password must be alphanumeric."/>
+	<message name="password.invalid" value="Please enter a valid password."/>
+	<message name="passwordConfirm.required" value="Please confirm your password."/>
+	<message name="passwordConfirm.invalid" value="Passwords didn't match."/>
+	<message name="emailAddress.required" value="Please enter your email address."/>
+	<message name="emailAddress.used" value="That email address is already in use."/>
+	<message name="emailAddress.invalid" value="Email address is invalid."/>
+	<message name="country.required" value="Please enter the country"/>
+	<message name="fulfillmentOptionId.required" value="Please select a shipping method."/>
+	<message name="payment.exception" value="There was a problem processing your payment. Please review your information."/>
+	<message name="phone.invalid" value="A phone number is required, and it must be valid."/>
+	<message name="phone.required" value="A phone number is required."/>
+	<message name="phoneName.required" value="A Phone Name is required."/>
+	<message name="phoneName.duplicate" value="A Phone with that Name already exists."/>
+	<message name="phoneNumber.duplicate" value="A Phone with that Number already exists."/>
+	<message name="phone.ten_digits_required" value="10 digits are required for your phone number."/>
+	<message name="phone.invalid_id" value="An ID was passed in that does not belong to the logged in user."/>
+	<message name="currentPassword.required" value="Please enter your current password."/>
+	<message name="currentPassword.invalid" value="Current password is invalid."/>
+	<message name="newPassword.required" value="Please enter your new password."/>
+	<message name="newPassword.invalid" value="Please enter a password with at least 5 characters."/>
+	<message name="newPasswordConfirm.required" value="Please confirm your new password."/>
+	<message name="newPasswordConfirm.invalid" value="Passwords don't match."/>
+	<message name="address.required" value="Please select an address"/>
+	<message name="option.required" value="Please select an option"/>
+	<message name="login.loginToAccount" value="Login to Your Account"/>
+	<message name="login.alreadyMember" value="Already a member? Sign in using the form below"/>
+	<message name="login.email" value="Email"/>
+	<message name="login.password" value="Password"/>
+	<message name="login.login" value="Login"/>
+	<message name="login.register" value="Register"/>
+	<message name="login.forgotPassword" value="Forgot Password"/>
+	<message name="register.signUpNow" value="Don't have an account yet? Sign up for one now to gain access to all our member tools."/>
+	<message name="register.registerForAccount" value="Register for an Account"/>
+	<message name="register.email" value="Email"/>
+	<message name="register.firstName" value="First Name"/>
+	<message name="register.lastName" value="Last Name"/>
+	<message name="register.password" value="Password"/>
+	<message name="register.confirmPassword" value="Confirm Password"/>
+	<message name="register.login" value="Login"/>
+	<message name="register.forgotPassword" value="Forgot Password"/>
+	<message name="register.register" value="Register"/>
+	<message name="register.passwordsDontMatch" value="The passwords do not match."/>
+	<message name="product.addToCart" value="Add to Cart"/>
+	<message name="product.inCart" value="In Cart!"/>
+	<message name="product.update" value="Update Cart"/>
+	<message name="product.outOfStock" value="Out of Stock"/>
+	<message name="product.share" value="Share"/>
+	<message name="product.description" value="Description"/>
+	<message name="product.viewInCart" value="View in Cart"/>
+	<message name="product.inventoryNotifications" value="Receive Inventory Notifications"/>
+	<message name="product.inWishlist" value="In Wishlist"/>
+	<message name="product.addToWishlist" value="Add to Wishlist"/>
+	<message name="product.removeFromWishlist" value="Remove from Wishlist"/>
+	<message name="product.addedToWishlist" value="Added To Wishlist!"/>
+	<message name="product.addToWishlist.login" value="Login to add to Wishlist"/>
+	<message name="product.more" value="More"/>
+	<message name="product.chooseOptionsWishlist" value="Choose options for wishlist!"/>
+	<message name="product.addToQuote" value="Add to Quote"/>
+	<message name="product.dragZoom" value="Drag to zoom"/>
+	<message name="cart.summary" value="Summary"/>
+	<message name="cart.title" value="Shopping Cart"/>
+	<message name="cart.itemSummary" value="In Your Cart"/>
+	<message name="cart.item.added" value="Item added successfully."/>
+	<message name="cart.promoCodes" value="Have a Promo Code?"/>
+	<message name="cart.accountCredit" value="Gift Cards and Customer Credit"/>
+	<message name="cart.currentSubtotal" value="Subtotal"/>
+	<message name="cart.orderDiscount" value="Total Savings"/>
+	<message name="cart.estimatedTotal" value="Estimated Total"/>
+	<message name="cart.subtotalDisclaimer" value="Estimated total does not yet include applicable tax or shipping and handling charges"/>
+	<message name="cart.update" value="Update"/>
+	<message name="cart.remove" value="Remove"/>
+	<message name="cart.checkout" value="Checkout"/>
+	<message name="cart.continueShopping" value="Continue Shopping"/>
+	<message name="cart.promoCode" value="Promo Code"/>
+	<message name="cart.applyDiscount" value="Apply"/>
+	<message name="cart.item" value="Item"/>
+	<message name="cart.quantity" value="Quantity"/>
+	<message name="cart.price" value="Price"/>
+	<message name="cart.discount" value="Discount"/>
+	<message name="cart.totalSavings" value="Total Savings"/>
+	<message name="cart.totalShipping" value="Shipping"/>
+	<message name="cart.total" value="Total"/>
+	<message name="cart.each" value="(each)"/>
+	<message name="cart.empty" value="Your cart is currently empty."/>
+	<message name="cart.orderSummary" value="Order Summary"/>
+	<message name="cart.edit" value="Edit"/>
+	<message name="cart.viewYourCart" value="View Your Cart"/>
+	<message name="cart.promotionCode" value="Promotion Code"/>
+	<message name="cart.or" value="or"/>
+</site-messages>
