@@ -23,6 +23,9 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>
+				<configuration>
+					<argLine>-Xms512m -Xmx4096m</argLine>
+				</configuration>
             </plugin>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
